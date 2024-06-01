@@ -8,7 +8,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo import MongoClient
 from quart import Quart
 
-from kelly.mongo import Prompt, VectorSearchQuery, PromptView
+from mongo import Prompt, VectorSearchQuery, PromptView
 
 TOGETHER_API_KEY = '62584312b992b79e3e76c031ff115c6a10e72ab9d222a06266b7c2c55a6961e6'
 MONGODB_URI = "mongodb+srv://hackers:aicampers@hackathon.zquobpp.mongodb.net/?retryWrites=true&w=majority&appName=hackathon"

@@ -1,7 +1,7 @@
 import pytest
 
-from kelly.mongo import Prompt, PromptView
-from kelly.poc import generate_embeddings, app, mongo_insert_prompt, init_mongo, search_prompt_content
+from mongo import Prompt, PromptView
+from poc import generate_embeddings, app, mongo_insert_prompt, init_mongo, search_prompt_content
 
 
 @pytest.fixture
